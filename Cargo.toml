@@ -9,7 +9,7 @@ edition = "2021"
 axum = "0.6.1"
 bb8 = "0.8"
 bb8-postgres = "0.8.1"
-tokio = { version = "1.0", features = ["full"] }
+tokio = { version = "1.24", features = ["full"] }
 tokio-postgres = "0.7.2"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
